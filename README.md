@@ -6,8 +6,11 @@ Homebrew tap for [javinizer](https://github.com/javinizer/javinizer-go) — a JA
 
 ```bash
 brew tap javinizer/homebrew-tap https://github.com/javinizer/homebrew-tap
+brew trust --formula javinizer/tap/javinizer
 brew install javinizer
 ```
+
+> **Homebrew 6.0+** requires explicitly trusting third-party taps before installing from them. The `brew trust` step above is required once per tap. Alternatively, set `HOMEBREW_NO_REQUIRE_TAP_TRUST=1` to skip the check (less secure — not recommended).
 
 Update to the latest stable release later:
 
