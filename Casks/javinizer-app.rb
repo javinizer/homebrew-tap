@@ -28,7 +28,7 @@ cask "javinizer-app" do
   end
 
   url "https://github.com/javinizer/javinizer-go/releases/download/v1.1.1/javinizer-desktop-macos-universal.zip"
-  sha256 "6a36e549ead02576c96a61bd8182fd43364fe397c49ed64c4bf22c30cc2e6eb5"
+  sha256 "cc99f0f5982425da78b38bcce7241bee66a7e5f0ee4265a73bf3492df21cb95d"
 
   app "Javinizer.app"
 
