@@ -27,8 +27,8 @@ cask "javinizer-app" do
     strategy :github_latest
   end
 
-  url "https://github.com/javinizer/javinizer-go/releases/download/v1.1.0/Javinizer-macos-universal.zip"
-  sha256 "fe160a5a22daf2944e4b9e427cf4aabf324c1fc615913cfb3de215d0b48c5607"
+  url "https://github.com/javinizer/javinizer-go/releases/download/v1.1.0/javinizer-desktop-macos-universal.zip"
+  sha256 "1dd9f2ce91538f808ac625030927e5a7fd06e47fad0b0002a94136257eb18a9f"
 
   app "Javinizer.app"
 

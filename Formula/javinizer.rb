@@ -21,17 +21,17 @@ class Javinizer < Formula
 
   on_macos do
     url "https://github.com/javinizer/javinizer-go/releases/download/v1.1.0/javinizer-darwin-universal"
-    sha256 "acdcbe4cb53a36edaaba481ff3e164ae79282ace19d847d1a27fd0cefb4f2633"
+    sha256 "58128e13fc07cbdc2c45056f32ec1784a713e2b10207a4dea0c29c49e4dda628"
   end
 
   on_linux do
     on_arm do
       url "https://github.com/javinizer/javinizer-go/releases/download/v1.1.0/javinizer-linux-arm64"
-      sha256 "3c9394d1e1a9e8d495f5afc2aef48a4b2c493c7d42935ca393c7c04acccea973"
+      sha256 "9c19a1f20ecf595c9be29b204a59e022bcd06412595e2c4008b14abb50ec4a05"
     end
     on_intel do
       url "https://github.com/javinizer/javinizer-go/releases/download/v1.1.0/javinizer-linux-amd64"
-      sha256 "e1fc49bc86283ef9a0d0a69c8be853ff0e4e01d7bf8831f4bb6b0fcf8b0e97e2"
+      sha256 "1933319b62d51ca2f27bf6bd72ff9525d4a7160ecc9cddec8418d7ff11caddaf"
     end
   end
 
