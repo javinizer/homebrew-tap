@@ -19,7 +19,7 @@
 cask "javinizer-app" do
   desc "JAV metadata scraper and organizer — desktop app"
   homepage "https://github.com/javinizer/javinizer-go"
-  version "1.3.1"
+  version "1.3.2"
   license "MIT"
 
   livecheck do
@@ -27,8 +27,8 @@ cask "javinizer-app" do
     strategy :github_latest
   end
 
-  url "https://github.com/javinizer/javinizer-go/releases/download/v1.3.1/javinizer-desktop-macos-universal.zip"
-  sha256 "efcf8bbf84e98fead3667e21949ccf06486d4e5a1a5e2eb5663edfeea19a03db"
+  url "https://github.com/javinizer/javinizer-go/releases/download/v1.3.2/javinizer-desktop-macos-universal.zip"
+  sha256 "7b4b4c4a8008f510a79231c0f6bc05c5193ab4790550ab1dca2480299d6dd571"
 
   app "Javinizer.app"
 
