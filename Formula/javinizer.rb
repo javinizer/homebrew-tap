@@ -11,7 +11,7 @@
 class Javinizer < Formula
   desc "JAV metadata scraper and organizer"
   homepage "https://github.com/javinizer/javinizer-go"
-  version "1.6.0"
+  version "1.6.1"
   license "MIT"
 
   livecheck do
@@ -20,18 +20,18 @@ class Javinizer < Formula
   end
 
   on_macos do
-    url "https://github.com/javinizer/javinizer-go/releases/download/v1.6.0/javinizer-darwin-universal"
-    sha256 "5afec0828cde04efe56f86de654d074cadb75536d8c13db1d1804b8262b26e30"
+    url "https://github.com/javinizer/javinizer-go/releases/download/v1.6.1/javinizer-darwin-universal"
+    sha256 "0347774d1bcaaa22b1e66541cc6ff83e65f644a552351fc5fe272977ed761f57"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/javinizer/javinizer-go/releases/download/v1.6.0/javinizer-linux-arm64"
-      sha256 "9086f75867297704dbba2a04b8455c3a246386f8b4813c3fab20978c20388fea"
+      url "https://github.com/javinizer/javinizer-go/releases/download/v1.6.1/javinizer-linux-arm64"
+      sha256 "0910a8859053f5776723f4e9cada5457a35f34f6fed70fc17b54b68b720ecac1"
     end
     on_intel do
-      url "https://github.com/javinizer/javinizer-go/releases/download/v1.6.0/javinizer-linux-amd64"
-      sha256 "2938d2ff66a51f7e170f572c1b5004ade13c2db5d7b11a351d0aac89fef5a126"
+      url "https://github.com/javinizer/javinizer-go/releases/download/v1.6.1/javinizer-linux-amd64"
+      sha256 "ceb97ed05a00807d254d792e99407986c84fa57d855047691e4a3230c2b9f9c1"
     end
   end
 
